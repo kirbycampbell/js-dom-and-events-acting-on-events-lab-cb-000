@@ -11,3 +11,9 @@ let input = document.querySelector('input');
 function retrieveEmployeeInformation(){
   return input.value;
 }
+
+function addNewElementAsLi(){
+  let ul = document.getElementById("#employee-list");
+  let li = document.createElement("li");
+  let employeeName =  retrieveEmployeeInformation();
+}
