@@ -27,10 +27,11 @@ function addNewLiOnClick(){
 }
 
 
-function retrieveEmployeeInformation(){
-  let clear = document.querySelector('a')
+
+function clearEmployeeListOnLinkClick(){
+  let link = document.querySelector('a')
   let ul = document.querySelector('ul')
-  clear.addEventListener('click', function(event){
+  link.addEventListener('click', function(event){
     ul.innerHTML = ''
   })
 }
