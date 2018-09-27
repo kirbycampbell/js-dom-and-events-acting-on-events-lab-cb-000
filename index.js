@@ -25,3 +25,12 @@ function addNewLiOnClick(){
     document.querySelector('input').value = '';
   })
 }
+
+
+function retrieveEmployeeInformation(){
+  let clear = document.querySelector('a')
+  let ul = document.querySelector('ul')
+  clear.addEventListener('click', function(event){
+    ul.innerHTML = ''
+  })
+}
