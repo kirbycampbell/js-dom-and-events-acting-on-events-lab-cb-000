@@ -13,7 +13,7 @@ function retrieveEmployeeInformation(){
 }
 
 function addNewElementAsLi(){
-  let ul = document.getElementById("#employee-list");
+  let ul = document.getElementById(".employee-list");
   let li = document.createElement("li");
   let employeeName =  retrieveEmployeeInformation();
   li.appendChild(document.createTextNode('employeeName'));
